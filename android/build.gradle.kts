@@ -1,5 +1,5 @@
 plugins {
-    id("org.jetbrains.compose") version "1.0.0-alpha3"
+    id("org.jetbrains.compose") version "1.2.0-alpha01-dev686"
     id("com.android.application")
     kotlin("android")
 }
@@ -14,7 +14,7 @@ repositories {
 
 dependencies {
     implementation(project(":common"))
-    implementation("androidx.activity:activity-compose:1.3.0-alpha03")
+    implementation("androidx.activity:activity-compose:1.6.0-alpha03")
 }
 
 android {

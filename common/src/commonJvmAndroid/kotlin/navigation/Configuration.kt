@@ -208,12 +208,12 @@ class Root(
                 "Transactions",
                 Icons.Default.Waves
             ) { router.push(Configuration.Transactions); headerString = "Transactions" },
-//            NavigationItem(
-//                "Settings",
-//                Icons.Default.Settings
-//            ) {
-//                router.push(Configuration.Settings); headerString = "Settings"
-//            }
+            NavigationItem(
+                "Settings",
+                Icons.Default.Settings
+            ) {
+                router.push(Configuration.Settings); headerString = "Settings"
+            }
         )
     }
 

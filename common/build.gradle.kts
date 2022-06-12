@@ -2,8 +2,8 @@ import org.jetbrains.compose.compose
 
 plugins {
     kotlin("multiplatform")
-    id("org.jetbrains.compose") version "1.0.0-alpha3"
-    kotlin("plugin.serialization") version "1.5.30"
+    id("org.jetbrains.compose") version "1.2.0-alpha01-dev686"
+    kotlin("plugin.serialization") version "1.6.21"
     id("com.android.library")
     id("kotlin-parcelize")
 
@@ -38,7 +38,7 @@ kotlin {
                 api(compose.runtime)
                 api(compose.materialIconsExtended)
                 api(compose.ui)
-                api("com.russhwolf:multiplatform-settings:0.8")
+                api("com.russhwolf:multiplatform-settings:0.8.1")
                 implementation("com.russhwolf:multiplatform-settings-serialization:0.8.1")
                 api("com.russhwolf:multiplatform-settings-no-arg:0.8")
 
@@ -75,8 +75,8 @@ kotlin {
             dependencies {
 //                api("com.google.zxing:android-integration:3.4.1")
                 api("com.github.xdbfoundation:java-digitalbits-sdk:0.27.0")
-                api("androidx.appcompat:appcompat:1.3.1")
-                api("androidx.core:core-ktx:1.6.0")
+                api("androidx.appcompat:appcompat:1.4.1")
+                api("androidx.core:core-ktx:1.7.0")
                 implementation("io.ktor:ktor-client-android:$ktor_version")
             }
         }
